@@ -1,0 +1,1 @@
+openssl rsautl -encrypt -inkey ../fase1/abner_public.pem -pubin -in aes_key.txt -out aes_key_abner_cifrada.bin && openssl rsautl -encrypt -inkey ../fase1/diego_publico.pem -pubin -in aes_key.txt -out aes_key_diego_cifrada.bin && openssl rsautl -encrypt -inkey ../fase1/abner_public.pem -pubin -in aes_key.txt -out aes_key_adrian_cifrada.bin
