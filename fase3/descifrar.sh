@@ -15,11 +15,11 @@
 
 # ----- CONFIGURABLE FILE NAMES -----
 # CAMBIAR ACA
-PRIVATE_KEY="diego_privado.pem"              # TODO: Cambiar esta
-AES_KEY_ENCRYPTED="aes_key_diego_cifrada.bin"      # TODO: Cambiar esta
-AES_KEY_DECRYPTED="aes_key_diego_descifrada.txt"   # TODO: Cambiar esta
+PRIVATE_KEY="abner_privado.pem"              # TODO: Cambiar esta
+AES_KEY_ENCRYPTED="aes_key_abner_cifrada.bin"      # TODO: Cambiar esta
+AES_KEY_DECRYPTED="aes_key_abner_descifrada.txt"   # TODO: Cambiar esta
 MESSAGE_ENCRYPTED="mensaje_cifrado.bin"
-MESSAGE_DECRYPTED="diego_descifrado.txt"   # TODO: Cambiar esta
+MESSAGE_DECRYPTED="abner_descifrado.txt"   # TODO: Cambiar esta
 
 # ----- STEP 1: Decrypt the AES key with the RSA private key -----
 echo "1) Decrypting AES key with RSA private key..."
